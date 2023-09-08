@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px, 0px;;
 }
 
 .header-logo {
@@ -71,4 +72,38 @@ body {
     display: flex;
     gap: 10px;
     flex-direction: column;
+}
+
+.body-one {
+    color:#1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 32px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    
+}
+
+.images {
+    display: flex;
+    gap: 75px;
+    justify-content: space-around;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.element {
+    width: 150px;
+    text-align: center;
 }
