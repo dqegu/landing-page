@@ -1,32 +1,32 @@
 body {
     margin: 0;
-    font-family: "Hero Secondary text";
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .header {
     background-color: #1F2937;
+    padding: 0px 150px 0px 150px;
 
 }
 
 .header-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .header-logo {
-    font-family: "Header Logo Text";
     font-size: 24px;
     color:#F9FAF8;
+    font-weight: bold;
 }
 
 .links {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    font-family: "Hero Secondary text";
     font-size: 18px;
     color: #E5E7EB;
     list-style-type: none;
@@ -34,19 +34,41 @@ body {
 
 .header-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+    gap: 75px;
 }
 
 .main-text {
-    font-family: "Hero Main";
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #F9FAF8;
 }
 
 .image {
-    width: 1000px;
-    height: 1000px;
+    width: 500px;
+    height: 100px;
     padding: 100px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup {
+    background-color: #3882F6;
+    font-weight: bold;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+.left-content {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
 }
