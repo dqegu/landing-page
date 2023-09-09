@@ -95,6 +95,7 @@ body {
     display: flex;
     gap: 75px;
     justify-content: space-around;
+    flex-wrap: wrap;;
 }
 
 .info {
@@ -126,4 +127,36 @@ body {
     font-weight: bolder;
     align-self: flex-end;
     padding: 15px;
+}
+
+.action {
+    background-color: #3882F6;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    margin: 100px 200px;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.signup2 {
+    border: 2px solid white;
+}
+
+.call {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.leftaction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 }
